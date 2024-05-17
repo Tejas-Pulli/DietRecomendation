@@ -5,7 +5,7 @@ import pandas as pd
 from model import recommend,output_recommended_recipes
 
 
-dataset=pd.read_csv('D:/Work/FP/Diet-Recommendation-System-main/Data/dataset.csv',compression='gzip')
+dataset=pd.read_csv('./DietRecommendation/Data/dataset.csv',compression='gzip')
 
 app = FastAPI()
 
