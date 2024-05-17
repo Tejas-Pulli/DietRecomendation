@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel,conlist
 from typing import List,Optional
 import pandas as pd
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'FastAPI_Backend'))
 from model import recommend,output_recommended_recipes
 
 
